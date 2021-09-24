@@ -1,0 +1,7 @@
+<div class="grid" >
+    <ng-container *ngFor="let photo of photos">
+        <div class="ngcell">
+            <a class="title"(click)="onClick(photo.id)"><img src={{photo.thumbnailUrl}}></a>
+        </div>
+    </ng-container>
+</div>
